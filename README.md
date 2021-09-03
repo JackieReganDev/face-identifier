@@ -30,7 +30,7 @@
 
   add class="form-control" to your form, then style it with the following:
 
-    .form-control {
+  ```  .form-control {
     display: block;
     width: 100%;
     height: 34px;
@@ -48,7 +48,6 @@
     -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-
 
 ::-webkit-file-upload-button {
   color:white;
@@ -85,4 +84,4 @@ color: black;
   cursor: pointer;
   white-space: nowrap;
   padding: 0 12px;
-}
+} 
