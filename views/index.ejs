@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Face Analyzer</title>
+    <title>Emotion Analyzer</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
@@ -9,14 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
      
     <h1>Please upload an image below and we will analyze the emotion!</h1>
-    <form action="/" enctype="multipart/form-data" method="post">
-      <input type="file" name="file-to-upload">
-      <input type="submit" value="Upload">
+    <form class = "form-control" action="/" enctype="multipart/form-data" method="post">
+      <input  type="file" name="file-to-upload">
+      <input class="button" type="submit" value="Upload">
     </form>  
   </body>
 </html>
