@@ -30,7 +30,8 @@
 
   add class="form-control" to your form, then style it with the following:
 
-  ```  .form-control {
+  ```  
+  .form-control {
     display: block;
     width: 100%;
     height: 34px;
